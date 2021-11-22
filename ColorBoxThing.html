@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+    Add more pretty colors
+    add a glowing effect to the tile that is selected   
+ -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 900px;
+            height: 1800px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: darkgrey;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            
+        }
+        .tile {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(161, 161, 161);
+            
+        }
+    </style>
+    <script>
+        function randomColor(variable) {
+            var colors = ['#ff0000', '#00ff00', '#0000ff'];
+            var random_color = colors[Math.floor(Math.random() * colors.length)];
+            document.getElementById(variable).style.backgroundColor = random_color;
+        }
+    </script>
+</head>
+<body style="background-color: rgb(49, 49, 49); height: 100%;">
+    <div class="box">
+        <div class="tile" id="chris" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="caitlin" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="sam" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="josh" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="josia" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="kaitlyn" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="john" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="megan" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="joyce" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="victor" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="niko" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="kelvin" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="ben" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="alex" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="regina" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="scott" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="lainey" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="ibrahim" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="james" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="jones" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="justin" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="echo" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="jean" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="crazychris" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="sean" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="tyler" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="katherine" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="emily" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="jeremiah" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="jack" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="bmo" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="finn" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="jake" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="jay" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="jaxx" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="christoph" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="elsa" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="bruce" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="asher" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="mandi" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="lily" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="apollo" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="zues" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="athena" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="hades" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="posidon" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="brandy" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="velma" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="helena" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="aoife" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="lucie" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="rebekah" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="harris" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="angela" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="hannah" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="vanessa" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="paula" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="georgie" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="george" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="adrian" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="anastasia" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="lois" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="lavla" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="kristina" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="philippa" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="carmen" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="karma" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="troy" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="rebecca" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="olivia" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="polly" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="cory" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="evelyn" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="scarlet" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="paige" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="elle" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="becca" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="natasha" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="edie" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="kate" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="naomi" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="bonnie" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="clyde" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="freddy" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="sophia" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="brandon" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="benny" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="bendy" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="nathan" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="johnathan" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="jackie" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="jackinthebox" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="jasmin" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="kameron" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="cameron" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="scotty" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="frog" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="ghost" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="jazmin" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="imtryingmybesthere" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="itshard" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="tocome" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="upwiththis" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="manynameson" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="thespotlikethis" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="drew" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="naturo" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="shiro" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="ghibli" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="mobilefrogtaskforce" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="kitty" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="nadia" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="sephia" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="kia" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="sunshinebear" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="monsterenergy" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="blu" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="tom" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="tommy" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="timmy" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="tim" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="jess" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="jessica" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="buggs" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="sheldon" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="ian" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="ean" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="jeff" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="jeffery" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="tacocat" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="cattaco" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="sammy" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="samuel" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="simon" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="simone" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="derrick" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="derry" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="darry" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="demetry" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="ted" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="teddy" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="tedison" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="eric" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="ericson" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="erikson" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="sarah" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="joshmin" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="amanda" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="destiny" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="gregory" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="suzane" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="lisa" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="linsy" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="ryan" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="phil" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="philly" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="philip" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="zack" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="zach" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="zachy" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="zachiria" onmouseover="randomColor(id)"></div>
+        <div class="tile" id="mia" onmouseover="randomColor(id)"></div>
+    </div>
+</body>
+</html>
